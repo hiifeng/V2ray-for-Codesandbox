@@ -1,0 +1,19 @@
+{
+  "setupTasks": ["/usr/local/v2ray/entrypoint.sh"],
+  "tasks": {
+    "supervisord": {
+      "name": "supervisord",
+      "command": "/usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf",
+	  "preview": {
+		"port": 8080,
+        "prLink": "direct"
+      },
+      "runAtStart": true
+    },
+    "info": {
+      "name": "info",
+      "command": "cat /usr/local/v2ray/info",
+      "runAtStart": true
+    }
+  }
+}
