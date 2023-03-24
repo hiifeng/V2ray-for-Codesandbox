@@ -11,7 +11,7 @@ Telegram: https://t.me/HiaiFeng <br>
 <p><li>部署完成如发现不能上网，请检查域名是否被墙，可使用 Cloudflare CDN 解决。</li></p>
 
 # 部署与使用方法：
-
+详细使用方法请参考：https://www.hicairo.com/post/62.html
 
 # 反馈与交流：
 <p>在使用过程中，如果遇到问题，请使用Telegram与我联系。（ https://t.me/HiaiFeng ）</p>
